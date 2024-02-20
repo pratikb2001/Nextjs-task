@@ -169,7 +169,7 @@ export default function Home() {
                 <TableCell>15000</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -187,7 +187,7 @@ export default function Home() {
                 <TableCell>-</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -205,7 +205,7 @@ export default function Home() {
                 <TableCell>12500</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -223,7 +223,7 @@ export default function Home() {
                 <TableCell>5000</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -241,7 +241,7 @@ export default function Home() {
                 <TableCell>-</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -259,7 +259,7 @@ export default function Home() {
                 <TableCell>30,000</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -277,7 +277,7 @@ export default function Home() {
                 <TableCell>14,500</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell className="font-medium">
@@ -295,7 +295,7 @@ export default function Home() {
                 <TableCell>12,500</TableCell>
                 <TableCell>2742090989</TableCell>
                 <TableCell>2832893</TableCell>
-                <TableCell>27 Sep'22 11:15AM</TableCell>
+                <TableCell>{`27 Sep'22 11:15AM`}</TableCell>
               </TableRow>
 
             </TableBody>
