@@ -26,15 +26,21 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import axios from "axios";
 
 
-
-
-
+interface Applicant {
+  title: string;
+  price: number;
+  category: string;
+  discountPercentage: number;
+  rating: number;
+  stock: number;
+  brand: string;
+}
 
 
 
 export default function Home() {
 
-  const [applicants, setApplicants] = useState([]);
+  const [applicants, setApplicants] = useState<Applicant[]>([]);
 
   useEffect(() => {
 
