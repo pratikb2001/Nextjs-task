@@ -69,8 +69,8 @@ export default function Home() {
         </TabsList>
 
         <TabsContent value="Results">
-          <div className="flex gap-4">
-            <Card className="grow">
+          <div className="block md:flex gap-4">
+            <Card className="grow my-5 md:my-0">
               <CardHeader>
                 <CardDescription>Total Applicants</CardDescription>
                 <CardTitle>1,239</CardTitle>
@@ -81,7 +81,7 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="grow">
+            <Card className="grow my-5 md:my-0">
               <CardHeader>
                 <CardDescription>Total Applicants Cleared</CardDescription>
                 <CardTitle>322</CardTitle>
@@ -92,7 +92,7 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="grow">
+            <Card className="grow my-5 md:my-0">
               <CardHeader>
                 <CardDescription>Total Questions</CardDescription>
                 <CardTitle>10 Questions</CardTitle>
@@ -103,7 +103,7 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            <Card className="grow">
+            <Card className="grow my-5 md:my-0">
               <CardHeader>
                 <CardDescription>Time Limit</CardDescription>
                 <CardTitle>20 Mins</CardTitle>

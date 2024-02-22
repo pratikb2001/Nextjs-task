@@ -6,6 +6,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
 import styles from "./layout.module.css";
 import { FaCheckCircle } from "react-icons/fa";
+import { useState, useEffect } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,8 +25,8 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* Sidebar */}
 
-        <div className="flex ">
-          <div className="p-8 bg-gray-100 md:w-1/5 sm:w-full">
+        <div className=" flex ">
+          <div className="p-8 bg-gray-100 md:w-1/5 sm:w-full hidden md:block">
             <div className="h-80">
               <div className="flex items-center	gap-2 my-6 text-green-900 text-lg font-semibold">
                 <FaCheckCircle className="text-green-500" />
@@ -59,7 +60,7 @@ export default function RootLayout({
 
           </div>
 
-          <div className="p-8 md:w-full sm:w-0">{children}</div>
+          <div className="p-8 md:w-full sm:w-0 ">{children}</div>
         </div>
       </body>
     </html>
