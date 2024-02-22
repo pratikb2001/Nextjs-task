@@ -185,7 +185,7 @@ export default function Home() {
 
 
               {applicants.map(applicant => (
-                <TableRow key={applicant.id}>
+                <TableRow>
                   <TableCell>{applicant.title}</TableCell>
                   <TableCell>{applicant.price}</TableCell>
                   <TableCell>{applicant.category}</TableCell>
