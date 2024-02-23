@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* Sidebar */}
 
-        <div className=" flex ">
+        <div className=" flex md:flex-row flex-col justify-center md:justify-start">
           <div className="p-8 bg-gray-100 md:w-1/5 sm:w-full hidden md:block">
             <div className="h-80">
               <div className="flex items-center	gap-2 my-6 text-green-900 text-lg font-semibold">

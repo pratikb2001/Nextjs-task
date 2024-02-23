@@ -67,14 +67,14 @@ export default function Home() {
 
   return (
     <div>
-      <div className="flex justify-between">
-        <div>
+      <div className="flex md:flex-row flex-col md:justify-between">
+        <div className="text-center md:text-left">
           <h1 className="font-semibold text-xl">General Aptitude</h1>
         </div>
-        <div>
+        <div className="text-center md:text-left">
           <Button
             variant="outline"
-            className="bg-white-500 rounded-full text-green-500 mx-2"
+            className="bg-white-500 rounded-full text-green-500 mx-2 my-3 md:my-0"
           >
             Preview Question
           </Button>
@@ -89,8 +89,8 @@ export default function Home() {
 
       <button className=""></button>
 
-      <Tabs defaultValue="account" className="w-full mb-8 ">
-        <TabsList className="bg-white">
+      <Tabs defaultValue="account" className="w-full mb-8 text-center md:text-left">
+        <TabsList className="bg-white flex-col md:flex-row md:h-[25px] h-[200px] ">
           <TabsTrigger value="Overview">Overview</TabsTrigger>
           <TabsTrigger value="Question">Add Question</TabsTrigger>
           <TabsTrigger value="Grade">Time & Grade</TabsTrigger>
@@ -105,46 +105,47 @@ export default function Home() {
         </TabsList>
 
         <TabsContent value="Results">
-          <div className="block md:flex gap-4">
-            <Card className="grow my-5 md:my-0">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <Card className="grow md:my-5">
               <CardHeader>
                 <CardDescription>Total Applicants</CardDescription>
                 <CardTitle>1,239</CardTitle>
               </CardHeader>
-              <CardContent className="flex items-center gap-1 ">
+              <CardContent className="flex md:justify-start justify-center gap-1 ">
                 <FaArrowUp className="text-green-500" />
                 <p>210 this week</p>
               </CardContent>
             </Card>
 
-            <Card className="grow my-5 md:my-0">
+            <Card className="grow md:my-5">
               <CardHeader>
                 <CardDescription>Total Applicants Cleared</CardDescription>
                 <CardTitle>322</CardTitle>
               </CardHeader>
-              <CardContent className="flex items-center gap-1 ">
+              <CardContent className="flex md:justify-start justify-center gap-1 ">
                 <FaArrowUp className="text-green-500" />
                 <p>59 this week</p>
               </CardContent>
             </Card>
 
-            <Card className="grow my-5 md:my-0">
+            <Card className="grow md:my-5">
               <CardHeader>
                 <CardDescription>Total Questions</CardDescription>
                 <CardTitle>10 Questions</CardTitle>
               </CardHeader>
-              <CardContent className="flex items-center gap-1 ">
+              <CardContent className="flex md:justify-start justify-center gap-1 ">
                 <FaArrowUp className="text-green-500" />
                 <p>3 Sections</p>
               </CardContent>
             </Card>
 
-            <Card className="grow my-5 md:my-0">
+            <Card className="grow md:my-5">
               <CardHeader>
                 <CardDescription>Time Limit</CardDescription>
                 <CardTitle>20 Mins</CardTitle>
               </CardHeader>
             </Card>
+
           </div>
         </TabsContent>
       </Tabs>
@@ -152,7 +153,7 @@ export default function Home() {
       {/* table tab */}
 
       <Tabs defaultValue="account">
-        <TabsList className="bg-white">
+        <TabsList className="bg-white md:flex-nowrap flex-wrap mb-7 md:mb-0 ">
           <TabsTrigger value="Performers" className="rounded-full bg-gray-100">
             Top Performers
           </TabsTrigger>
