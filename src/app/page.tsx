@@ -27,6 +27,7 @@ import axios from "axios";
 
 
 interface Applicant {
+  id: number;
   title: string;
   price: number;
   category: string;
@@ -192,7 +193,7 @@ export default function Home() {
 
 
               {applicants.map(applicant => (
-                <TableRow>
+                <TableRow key={applicant.id}>
                   <TableCell>{applicant.title}</TableCell>
                   <TableCell>{applicant.price}</TableCell>
                   <TableCell>{applicant.category}</TableCell>
